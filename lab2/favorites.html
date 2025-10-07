@@ -14,7 +14,7 @@
       <nav class="space-x-6 hidden md:flex">
         <a href="../lab1/index.html" class="hover:text-slate-400 transition">Home</a>
         <a href="favorites.html" class="hover:text-slate-400 transition">Favorites</a>
-        <a href="about.html" class="hover:text-slate-400 transition">About</a>
+        <a href="../lab1/about.html" class="hover:text-slate-400 transition">About</a>
       </nav>
       <button class="md:hidden bg-gray-500 px-3 py-2 rounded">Menu</button>
     </div>
@@ -28,18 +28,14 @@
     <div class="absolute inset-0 bg-black bg-opacity-60"></div>
     <div class="relative z-10 max-w-2xl mx-auto">
       <h2 class="text-4xl md:text-5xl font-bold leading-snug">
-        Your favorite stories live here<br/>ready to explore again.
+        Your favorite stories live here<br /> ready to explore again.
       </h2>
       <p class="text-gray-200 mt-4 text-lg">
         The more that you learn, the more places you’ll go.
       </p>
-      <!-- <button></button><a href="index.html" class="hover:text-slate-400 transition"></a>Back Home -->
-      <!-- <button  -->
-        <!-- <a href="index.html"  class="mt-6 bg-slate-500 hover:bg-slate-600 text-white px-6 py-3 rounded-lg shadow"</a> -->
-      <!-- Back to Home -->
-        <!-- </button> -->
+
          <div class="mt-6">
-            <a href="../lab1/index.html" class="bg-slate-500 hover:bg-slate-600 text-white px-6 py-3 rounded-lg shadow">Back Home</a>
+            <a href="../lab1/index.html" class="lab1/about.html">Back Home</a>
          </div>
     </div>
   </section>
@@ -50,106 +46,7 @@
       My Lovely Collection
     </h2>
 
-    <div
-      class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-6xl mx-auto"
-    >
-      <!-- Card Template -->
-      <div
-        class="relative bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-lg hover:translate-y-1 transition"
-      >
-        <img
-          src="pic1.jpg"
-          alt="Book 1"
-          class="w-full h-64 object-cover"
-        />
-        <button
-          class="absolute top-3 right-3 bg-white bg-opacity-80 hover:bg-pink-500 hover:text-white text-pink-500 rounded-full p-2 shadow-md transition"
-          title="Add to Favorites"
-        >
-          ❤️
-        </button>
-      </div>
-
-      <div
-        class="relative bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-lg hover:translate-y-1 transition"
-      >
-        <img
-          src="pic2.jpg"
-          alt="Book 2"
-          class="w-full h-64 object-cover"
-        />
-        <button
-          class="absolute top-3 right-3 bg-white bg-opacity-80 hover:bg-pink-500 hover:text-white text-pink-500 rounded-full p-2 shadow-md transition"
-          title="Add to Favorites"
-        >
-          ❤️
-        </button>
-      </div>
-
-      <div
-        class="relative bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-lg hover:translate-y-1 transition"
-      >
-        <img
-          src="pic3.jpg"
-          alt="Book 3"
-          class="w-full h-64 object-cover"
-        />
-        <button
-          class="absolute top-3 right-3 bg-white bg-opacity-80 hover:bg-pink-500 hover:text-white text-pink-500 rounded-full p-2 shadow-md transition"
-          title="Add to Favorites"
-        >
-          ❤️
-        </button>
-      </div>
-
-      <div
-        class="relative bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-lg hover:translate-y-1 transition"
-      >
-        <img
-          src="pic4.jpg"
-          alt="Book 4"
-          class="w-full h-64 object-cover"
-        />
-        <button
-          class="absolute top-3 right-3 bg-white bg-opacity-80 hover:bg-pink-500 hover:text-white text-pink-500 rounded-full p-2 shadow-md transition"
-          title="Add to Favorites"
-        >
-          ❤️
-        </button>
-      </div>
-
-      <div
-        class="relative bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-lg hover:translate-y-1 transition"
-      >
-        <img
-          src="pic5.jpg"
-          alt="Book 5"
-          class="w-full h-64 object-cover"
-        />
-        <button
-          class="absolute top-3 right-3 bg-white bg-opacity-80 hover:bg-pink-500 hover:text-white text-pink-500 rounded-full p-2 shadow-md transition"
-          title="Add to Favorites"
-        >
-          ❤️
-        </button>
-      </div>
-
-      <div
-        class="relative bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-lg hover:translate-y-1 transition"
-      >
-        <img
-          src="pic6.jpg"
-          alt="Book 6"
-          class="w-full h-64 object-cover"
-        />
-        <button
-          class="absolute top-3 right-3 bg-white bg-opacity-80 hover:bg-pink-500 hover:text-white text-pink-500 rounded-full p-2 shadow-md transition"
-          title="Add to Favorites"
-        >
-          ❤️
-        </button>
-      </div>
-    </div>
+    <div id="favorites-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-6xl mx-auto"></div>
   </main>
 
   <!-- Footer -->
@@ -158,4 +55,5 @@
   </footer>
 
 </body>
+<script type="module" src="./favorites.js"></script>
 </html>
